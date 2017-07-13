@@ -1,0 +1,1 @@
+{"union":"kaolotia","mouza":"araisho proshad","land_type":"mhl","wrf":"agam","soil_solidness":"jhurjhure","N":".1","P":"18","K":".15","PH":"7"}
