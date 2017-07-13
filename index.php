@@ -224,7 +224,8 @@
 				<div class="col-xs-7s">
 				  <input type="submit" class="btn btn-success" value="Submit">
                     <?php 
-                        shell_exec('java -jar "C:\Users\shane\Documents\My Web Sites\MSISharifApp\nabilpag\dist\Agriculture.jar"');
+//                        shell_exec('java -jar "C:\Users\shane\Documents\My Web Sites\MSISharifApp\ZTest\dist\ZTest.jar"');
+                            shell_exec('D:\home\site\wwwroot\ZTest\dist\jdk1.8.0_111\bin\java -jar "D:\home\site\wwwroot\nabilpag\dist\Agriculture.jar"');
                     ?>
 				</div>
 			</div>

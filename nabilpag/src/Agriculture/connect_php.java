@@ -13,11 +13,11 @@ public class connect_php {
     public void connect_php() {
         JSONParser parser = new JSONParser();
         FileWriter fw = null;
-        BufferedWriter bw = null;
+//        BufferedWriter bw = null;
  
         try {
  
-            Object obj = parser.parse(new FileReader("C:\\Users\\shane\\Documents\\My Web Sites\\MSISharifApp\\dataShare.txt"));
+            Object obj = parser.parse(new FileReader("D:\\home\\site\\wwwroot\\dataShare.txt"));
             
             JSONObject jsonObject = (JSONObject) obj;
             
@@ -34,11 +34,14 @@ public class connect_php {
             //System.out.println(union+mouza_name+land_type+wrf+soil_solidness+N+P+K+PH);
             cal.get_input(union,mouza_name,land_type,wrf,soil_solidness,N,P,K,PH);    
             
-            fw = new FileWriter("C:\\Users\\shane\\Documents\\My Web Sites\\MSISharifApp\\dataShare3.txt");
-            bw = new BufferedWriter(fw);
-            bw.write(" islam \n seriously?? \n");
+//            fw = new FileWriter("C:\\Users\\shane\\Documents\\My Web Sites\\MSISharifApp\\dataShare3.txt");
+            fw = new FileWriter("D:\\home\\site\\wwwroot\\dataShare3.txt");            
+//            bw = new BufferedWriter(fw);
+//            bw.write(" islam \n seriously?? \n");
+            fw.write(calculation.jsobj.toJSONString());
             
-            bw.close();
+
+//            bw.close();
             fw.close();
 
  

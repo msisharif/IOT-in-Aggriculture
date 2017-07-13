@@ -15,6 +15,7 @@ public class DBConnector
 
     public DBConnector ()
     {
+        
         try{
             Class.forName("com.mysql.jdbc.Driver");
 //            database=agri_data;server=sharifserver.mysql.database.azure.com;uid=MSISharif@sharifserver;pwd=******

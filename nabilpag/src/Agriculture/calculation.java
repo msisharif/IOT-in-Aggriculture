@@ -12,11 +12,15 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONAware;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class calculation 
 {
+
+    public static JSONObject jsobj = new JSONObject();
     JSONParser parser = new JSONParser();
     FileWriter fw = null;
     BufferedWriter bw = null;
@@ -576,14 +580,18 @@ public class calculation
     
     public void starting_with_mouza(String mouza_name, String water_removing_fact, String soil_solidness) throws SQLException, IOException
     {
-        fw = new FileWriter("C:\\Users\\shane\\Documents\\My Web Sites\\MSISharifApp\\dataShare1.txt");
-        bw = new BufferedWriter(fw);
+//        fw = new FileWriter("C:\\Users\\shane\\Documents\\My Web Sites\\MSISharifApp\\dataShare1.txt");
+//        fw = new FileWriter("D:\\home\\site\\wwwroot\\dataShare1.txt");        
+//        bw = new BufferedWriter(fw);
         ResultSet mouza_rs = null;
         mouza_rs = db.get_mouza_details(mouza_name);
         mouza_rs.absolute(1);
         String x = null;
         String mouza_list[] = null;
         System.out.println("____________________________________________________MOUZA DETAILS________________________________________");
+        jsobj.put("Mouza Name", mouza_rs.getString(1));
+        jsobj.put("Union Name", mouza_rs.getString(2));
+        JSONArray map = new JSONArray();
         for (int i = 1; i <=3 ; i++)
         {
             x = mouza_rs.getString(i);
@@ -594,10 +602,12 @@ public class calculation
             }
             for (int j = 0; j < mouza_det.length; j++)
             { 
+                map.add("map #"+(j+1)+" : "+mouza_det[j]);
                 System.out.println(mouza_det[j]);
             }
             
         }
+        jsobj.put("Maping", map);
         for (int i = 0; i < mouza_list.length; i++)
         {
             System.out.println("________________________________________________MAP_____________________________________________");
