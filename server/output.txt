@@ -1,0 +1,382 @@
+*INPUTS DETAILS :
+
+UPAZILA NAME : null
+
+UNION NAME : null
+
+MOUZA NAME : araisho proshad
+
+LAND TYPE : Medium High Land
+
+WATER REMOVING FACT : Advance
+
+SOIL SOLIDNESS : Crumbly
+
+N : 0.25
+
+P : 15.0
+
+K : 0.34
+
+PH : 5.0
+
+
+*MOUZA DETAILS :
+
+MOUZA NAME : araisho proshad
+
+UNION NAME : kaolotia
+
+MAPPING LISTS ARE : 
+1. map-2
+2. map-4
+3. map-6
+
+
+*MAP DETAILS :
+
+MAP NO : map-2
+
+REGIONS : madhupur gor anchal
+
+TOTAL AREA COVERED : 5793
+
+UNION LISTS : 
+1. mirjapur(2970)
+2. kaolotia(2161)
+3. kashimpur(418)
+4. gazipur powrosova(212)
+5. konabari(95)
+
+LAND TYPE : High Land
+Total area :4634
+Soil series lists are: 
+1. gerua(4344)
+2. salna(290)
+
+LAND TYPE : Medium High Land
+Total area :1159
+Soil series lists are: 
+1. kolma(1159)
+
+>> LAND RECENT USAGE : 
+
+
+> Land type : '	
+High Land' is recently using for : 
+
+
+USE NO : 1
+Crop production intensity : many years crops
+Crop distribution : forest tree(shal,akashmoni)
+Area covered : 1738 ha 
+
+USE NO : 2
+Crop production intensity : two crops
+Crop distribution : robi vegitable-kharif vegitable
+Area covered : 1159 ha 
+
+USE NO : 3
+Crop production intensity : two crops
+Crop distribution : boro-fallow-T.aman
+Area covered : 1158 ha 
+
+USE NO : 4
+Crop production intensity : single crop
+Crop distribution : fallow-fallow-T.aman
+Area covered : 579 ha 
+
+
+
+> Land type : 'Medium High Land' is recently using for : 
+
+
+USE NO : 1
+Crop production intensity : two crops
+Crop distribution : boro-fallow-T.aman
+Area covered : 290 ha 
+
+USE NO : 2
+Crop production intensity : single crop
+Crop distribution : fallow-fallow-T.aman
+Area covered : 869 ha 
+
+
+
+*MAP DETAILS :
+
+MAP NO : map-4
+
+REGIONS : madhupur gor anchal
+
+TOTAL AREA COVERED : 3271
+
+UNION LISTS : 
+1. kaolotia(1601)
+2. kashimpur(827)
+3. bason(356)
+4. gazipur powrosova(206)
+5. konabari(200)
+6. mirjapur(81)
+
+LAND TYPE : High Land
+Total area :1962
+Soil series lists are: 
+1. noadda(1308)
+2. chandra(654)
+
+LAND TYPE : Medium High Land
+Total area :1145
+Soil series lists are: 
+1. chandra(654)
+2. kolma(491)
+
+>> LAND RECENT USAGE : 
+
+
+> Land type : '	
+High Land' is recently using for : 
+
+
+USE NO : 1
+Crop production intensity : two crops
+Crop distribution : boro-fallow-T.aman
+Area covered : 981 ha 
+
+USE NO : 2
+Crop production intensity : two crops
+Crop distribution : robi crops-fallow-T.aman
+Area covered : 327 ha 
+
+USE NO : 3
+Crop production intensity : single crop
+Crop distribution : fallow-fallow-T.aman
+Area covered : 654 ha 
+
+
+
+> Land type : 'Medium High Land' is recently using for : 
+
+
+USE NO : 1
+Crop production intensity : two crops
+Crop distribution : boro-fallow-T.aman
+Area covered : 654 ha 
+
+USE NO : 2
+Crop production intensity : single crop
+Crop distribution : fallow-fallow-T.aman
+Area covered : 491 ha 
+
+
+
+*MAP DETAILS :
+Sorry map-6 is not in database.
+
+
+*SOIL LIST :
+ACCORDING LAND TYPE, WATER REMOVING FACT AND SOIL SOLIDNESS ALL SOILS ARE :
+
+1. kolma
+2. chandra
+
+
+*SOIL INFORMATION :
+SOIL NAME: kolma
+
+ROUGHNESS : nearly plain
+
+WATER REMOVING FACT : Advance
+
+DRAINAGE SYSTEM : bad
+
+SOIL TYPE : loam
+
+SOIL SOLIDNESS : Crumbly
+
+SOIL NUTRIATION : low
+
+SOIL PH : very strongly-slightly acid
+
+
+>> ACCORDING IRRIGATION TYPE : Without Irrigation
+
+> KHARIF 1 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : bona aus
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : bona aus
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 40.217 kg Urea/ha
+2. P : 30.033 kg TSP/ha
+3. K : -9.600 kg KCI/ha
+
+> KHARIF 2 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : T.aman
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : T.aman
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 61.667 kg Urea/ha
+2. P : 37.542 kg TSP/ha
+3. K : -14.400 kg KCI/ha
+
+> CROPS DISTRIBUTION DETAILS: 
+
+CROP DISTRIBUTION LIST : 1
+fallow-bona aus-T.aman
+
+
+>> ACCORDING IRRIGATION TYPE : With Irrigation
+
+> RABI CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : Wheat
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : Wheat
+SUITABLE LAND : upland
+FERTILIZER RECOMMENDATION : 
+1. N : 107.246 kg Urea/ha
+2. P : 110.073 kg TSP/ha
+3. K : 12.600 kg KCI/ha
+
+
+CROP NO : 2
+CROP NAME : Mustard(ufshi)
+Sorry crop name : Mustard(ufshi) is not in database.
+
+
+CROP NO : 3
+CROP NAME : boro(ufshi)
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : boro(ufshi)
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 120.652 kg Urea/ha
+2. P : 75.083 kg TSP/ha
+3. K : -22.400 kg KCI/ha
+
+> KHARIF 2 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : T.aman(ufshi)
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : T.aman(ufshi)
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 80.435 kg Urea/ha
+2. P : 45.050 kg TSP/ha
+3. K : -14.400 kg KCI/ha
+
+> CROPS DISTRIBUTION DETAILS: 
+
+CROP DISTRIBUTION LIST : 1
+robi crops-bona aus-T.aman(ufshi)
+
+CROP DISTRIBUTION LIST : 2
+sorish-boro-T.aman
+
+CROP DISTRIBUTION LIST : 3
+boro-fallow-T.aman
+
+
+
+*SOIL INFORMATION :
+SOIL NAME: chandra
+
+ROUGHNESS : plain
+
+WATER REMOVING FACT : Advance
+
+DRAINAGE SYSTEM : bad
+
+SOIL TYPE : loam
+
+SOIL SOLIDNESS : Crumbly
+
+SOIL NUTRIATION : low
+
+SOIL PH : strongly-slightly acid
+
+
+>> ACCORDING IRRIGATION TYPE : Without Irrigation
+
+> KHARIF 1 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : bona aus
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : bona aus
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 40.217 kg Urea/ha
+2. P : 30.033 kg TSP/ha
+3. K : -9.600 kg KCI/ha
+
+> KHARIF 2 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : T.aman
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : T.aman
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 61.667 kg Urea/ha
+2. P : 37.542 kg TSP/ha
+3. K : -14.400 kg KCI/ha
+
+> CROPS DISTRIBUTION DETAILS: 
+
+CROP DISTRIBUTION LIST : 1
+fallow-bona aus-T.aman
+
+
+>> ACCORDING IRRIGATION TYPE : With Irrigation
+
+> RABI CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : boro(ufshi)
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : boro(ufshi)
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 120.652 kg Urea/ha
+2. P : 75.083 kg TSP/ha
+3. K : -22.400 kg KCI/ha
+
+> KHARIF 1 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : T.aus(ufshi)
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : T.aus(ufshi)
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 80.435 kg Urea/ha
+2. P : 45.050 kg TSP/ha
+3. K : -14.400 kg KCI/ha
+
+> KHARIF 2 CROPS DETAILS: 
+
+
+CROP NO : 1
+CROP NAME : T.aman(ufshi)
+PH STATUS : strongly acid(5.0) and it is medium suitable for crop : T.aman(ufshi)
+SUITABLE LAND : wetland
+FERTILIZER RECOMMENDATION : 
+1. N : 80.435 kg Urea/ha
+2. P : 45.050 kg TSP/ha
+3. K : -14.400 kg KCI/ha
+
+> CROPS DISTRIBUTION DETAILS: 
+
+CROP DISTRIBUTION LIST : 1
+fallow-T.aus(ufshi)-T.aman(ufshi,local)
+
+CROP DISTRIBUTION LIST : 2
+boro(ufshi)-T.aman(ufshi,local)

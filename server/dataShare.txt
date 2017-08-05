@@ -1,0 +1,1 @@
+{"mouza":"araisho proshad","land_type":"Medium High Land","wrf":"Advance","soil_solidness":"Crumbly","N":".25","P":"15","K":".34","PH":"5"}
