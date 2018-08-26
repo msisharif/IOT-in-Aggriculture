@@ -1,6 +1,6 @@
 # Thesis
 
-##Development of the Pre-seeding Decision Support System based on IOT in Agriculture:
+## Development of the Pre-seeding Decision Support System based on IOT in Agriculture:
 A hardware based system using pH sensor, Arduino language and where java platform is used as backend
 and for frontend HTML, CSS and Bootstrap is used. This system has the capability to find out all possible
 crops for a specific land and also provides fertilizer recommendation for all those crops as well as crop
