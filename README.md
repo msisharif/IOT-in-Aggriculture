@@ -7,12 +7,9 @@ distribution lists. A real life mobile application and a web page also designed 
 
 # Screenshots
 
-<img src="Screenshots/1.PNG" width=300 >
-<img src="Screenshots/2.PNG" width=300 >
-<img src="Screenshots/3.PNG" width=300 >
-<img src="Screenshots/4.PNG" width=300 >
-<img src="Screenshots/5.PNG" width=300 >
-<img src="Screenshots/6.PNG" width=300 >
+<img src="Screenshots/1.PNG" width=300 hspace="20"> <img src="Screenshots/2.PNG" width=300 >
+<img src="Screenshots/3.PNG" width=300 hspace="20"> <img src="Screenshots/4.PNG" width=300 >
+<img src="Screenshots/5.PNG" width=300 hspace="20"> <img src="Screenshots/6.PNG" width=300 >
 <img src="Screenshots/7.PNG" width=300 >
 
 
